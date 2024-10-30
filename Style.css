@@ -1,0 +1,97 @@
+html{
+    background-color: #f4f4f4
+
+}
+header h1{
+    color:white;
+}
+
+header{
+background-color: #333
+}
+
+section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+.menu li a:visited {
+    color: #999999;
+}
+
+
+
+.section-info {
+    background-color: #fafafa;
+}
+
+
+#about .list-item {
+    color: #555;
+}
+
+#about .list-item:nth-child(3) {
+    font-weight: bold;
+    color: #333;
+}
+
+/*  Contato */
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #00aaff;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #031c36;
+}
+
+footer{
+text-align: center;
+color: white;
+background-color: #222;
+padding: 10px;
+
+
+}
